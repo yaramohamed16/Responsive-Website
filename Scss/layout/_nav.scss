@@ -1,0 +1,22 @@
+nav {
+    padding: 20px;
+    @extend %flex-center;
+}
+
+a {
+    text-decoration: none;
+    color: $blackColor;  
+}
+
+ul {
+    list-style: none;
+    color: $whiteColor;
+    @extend %flex;
+}
+
+ul li {
+    padding: 10px;
+    border: $listBorder;
+    background-color: $grayColor;
+    border-radius: $listBorderRadius;
+}

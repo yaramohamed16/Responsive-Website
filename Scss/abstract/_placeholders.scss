@@ -1,0 +1,29 @@
+%flex {
+    display: flex;
+}
+
+%flex-center {
+    @extend %flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%text-center {
+    text-align: center;
+}
+
+%box-shadow {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+%transition {
+    transition: 0.3s ease-in-out;
+}
+
+%clearfix {
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}

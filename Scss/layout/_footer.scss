@@ -1,0 +1,17 @@
+footer {
+    @extend %flex-center;
+    background-color: $blueColor;
+    height: 10vh;
+
+    p {
+        padding: 10px 0px;
+        @extend %text-center;
+    }
+}
+.container-fluid {
+    width: 100%;
+}
+.row {
+    width: 100%;
+    @extend %flex;
+}
